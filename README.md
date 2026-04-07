@@ -56,6 +56,8 @@ add_filter('soderlind_jsonld_cache_ttl', function (): int {
 });
 ```
 
+See [docs/filters.md](docs/filters.md) for the full filters reference with examples.
+
 ## Development
 
 ```bash
