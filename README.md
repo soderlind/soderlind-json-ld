@@ -21,9 +21,10 @@ AI-optimized JSON-LD structured data for WordPress. Auto-detects content pattern
 
 ## Installation
 
-1. Upload the `soderlind-json-ld` folder to `/wp-content/plugins/`
-2. Activate the plugin (per-site or network-wide on multisite)
-3. Go to **Settings → JSON-LD** to configure organization details
+1. Download [\`soderlind-json-ld.zip\`](https://github.com/soderlind/soderlind-json-ld/releases/latest/download/soderlind-json-ld.zip)
+2. Go to **Plugins > Add New > Upload Plugin**
+3. Upload the zip file and activate
+4. Go to **Settings → JSON-LD** to configure organization details
 
 ## Settings
 
