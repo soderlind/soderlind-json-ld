@@ -4,7 +4,7 @@ Tags: json-ld, schema, structured data, seo, ai
 Requires at least: 6.8
 Tested up to: 7.0
 Requires PHP: 8.3
-Stable tag: 0.1.0
+Stable tag: 0.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -78,6 +78,19 @@ The plugin detects Yoast and Rank Math FAQ/HowTo blocks as content sources. If t
 == Screenshots ==
 
 == Changelog ==
+
+= 0.2.0 =
+* Added WordPress Coding Standards (WPCS 3.3.0) compliance with phpcs.xml.dist.
+* Added Norwegian Bokmål (nb_NO) translation.
+* Added i18n support: Text Domain, Domain Path, load_plugin_textdomain(), and .pot file.
+* Added GitHub Updater integration for automatic updates from GitHub releases.
+* Added GitHub Actions workflows for release packaging and manual ZIP builds.
+* Added GitHub issue templates (bug report and feature request).
+* Added developer filters documentation (docs/filters.md).
+* Added "Flush JSON-LD Cache" button on the settings page.
+* Added media picker for logo selection on the settings page.
+* Changed: plugin can now be activated per-site or network-wide (removed Network: true).
+* Fixed: media picker was broken due to missing wp_enqueue_media() call.
 
 = 0.1.0 =
 * Initial release.

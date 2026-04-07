@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] - 2026-04-07
+
+### Added
+- WordPress Coding Standards (WPCS 3.3.0) compliance with `phpcs.xml.dist`.
+- Norwegian Bokmål (nb_NO) translation.
+- Internationalization support: `Text Domain`, `Domain Path` headers, `load_plugin_textdomain()`, and `.pot` file.
+- GitHub Updater integration for automatic updates from GitHub releases.
+- GitHub Actions workflows for release packaging and manual ZIP builds.
+- GitHub issue templates (bug report and feature request).
+- Comprehensive developer filters documentation (`docs/filters.md`).
+- "Flush JSON-LD Cache" button on the settings page.
+- Media picker for logo selection on the settings page.
+
+### Changed
+- Plugin can now be activated per-site or network-wide (removed `Network: true`).
+
+### Fixed
+- Media picker was broken due to missing `wp_enqueue_media()` call.
+
 ## [0.1.0] - 2026-04-07
 
 ### Added

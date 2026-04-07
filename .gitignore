@@ -1,5 +1,6 @@
 /vendor/
 /node_modules/
+.vscode/
 .phpunit.cache/
 .phpunit.result.cache
 *.log
